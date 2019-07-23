@@ -1,0 +1,44 @@
+﻿Build started 12/05/2017 13:35:36.
+     1>Project "Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\src\CourseworkBase.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\SDL\include /ZI /nologo /W1 /WX- /Od /Oy- /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\\" /Fd"Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\vc120.pdb" /FR"Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\\" /Gd /TP /analyze- /errorReport:prompt GameMain.cpp
+         GameMain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\CourseworkBase.exe" /NOLOGO /LIBPATH:..\SDL\libx86 SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\CourseworkBase.pdb" /MAP:"map" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE:NO /IMPLIB:"Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\CourseworkBase.lib" /MACHINE:X86 /SAFESEH Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Bullet.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\CollidableObject.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Enemy.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\FastEnemy.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\GameMain.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\mainfunction.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\BaseEngine.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\DisplayableObject.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\FontManager.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\JPGImage.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Player.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\SimpleDemo.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\TestObject.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\TileManager.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\BouncingBall.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\BouncingBallMain.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo1Main.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo2Main.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo2Object.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo2TileManager.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo3Main.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo3Object.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo3ObjectFinished.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo3TileManager.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo4Main.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo4Object.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo4TileManager.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\WalkingEnemy.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Wall.obj
+         Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\WallTileManager.obj
+         CourseworkBase.vcxproj -> Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\CourseworkBase.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\CourseworkBase.bsc" Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Bullet.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\CollidableObject.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Enemy.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\FastEnemy.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\GameMain.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\mainfunction.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\BaseEngine.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\DisplayableObject.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\FontManager.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\JPGImage.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Player.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\SimpleDemo.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\TestObject.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\TileManager.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\BouncingBall.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\BouncingBallMain.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo1Main.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo2Main.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo2Object.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo2TileManager.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo3Main.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo3Object.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo3ObjectFinished.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo3TileManager.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo4Main.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo4Object.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Demo4TileManager.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\WalkingEnemy.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\Wall.sbr Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\/Debug\WallTileManager.sbr
+     1>Done Building Project "Z:\Year2\CPP\Coursework2\CPP_CW2016\CPP_CW2016\src\CourseworkBase.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.40
